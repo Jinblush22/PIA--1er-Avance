@@ -129,6 +129,8 @@ git tag -a pia-avance-1 -m "PIA: primer avance — EduSec Toolkit"
 
 ---
 
+---
+
 ## 9. Evidencias de funcionamiento (Primer Avance)
 
 A continuación, se presentan las capturas de pantalla que demuestran el cumplimiento de los objetivos técnicos del primer avance.
@@ -137,10 +139,10 @@ A continuación, se presentan las capturas de pantalla que demuestran el cumplim
 
 Esta imagen demuestra que el entorno de desarrollo está configurado correctamente. Se ejecuta `make clean` para asegurar una compilación limpia, seguida de `make`. Se observa el uso de banderas de compilación estrictas (`-Wall -Wextra -Wpedantic -std=c++17`) y la generación final del binario `build/edusec`.
 
-![Evidencia de compilación limpia y exitosa](compilacion.png)
+![Evidencia de compilación limpia y exitosa](evidence/compilacion.png)
 
 ### B. Ejecución y menú de ayuda
 
 Esta imagen confirma que el binario generado es ejecutable y que el sistema de despacho de subcomandos funciona. Al ejecutar `./build/edusec` sin argumentos (o con `--help`), el toolkit despliega correctamente el menú de ayuda, listando los módulos operativos (`hash`, `procs`, `scan`) y sus opciones.
 
-![Evidencia de ejecución del binario y menú de ayuda](ejecucion.png)
+![Evidencia de ejecución del binario y menú de ayuda](evidence/ejecucion_ayuda.png)
