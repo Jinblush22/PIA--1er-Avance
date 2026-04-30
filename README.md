@@ -145,4 +145,4 @@ Esta imagen demuestra que el entorno de desarrollo está configurado correctamen
 
 Esta imagen confirma que el binario generado es ejecutable y que el sistema de despacho de subcomandos funciona. Al ejecutar `./build/edusec` sin argumentos (o con `--help`), el toolkit despliega correctamente el menú de ayuda, listando los módulos operativos (`hash`, `procs`, `scan`) y sus opciones.
 
-![Evidencia de ejecución del binario y menú de ayuda](evidence/ejecucion_ayuda.png)
+![Evidencia de ejecución del binario y menú de ayuda](evidence/ejecucion.png)
