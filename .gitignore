@@ -1,0 +1,28 @@
+# Artefactos de compilación
+build/
+*.o
+*.obj
+*.exe
+*.out
+*.a
+*.so
+*.dll
+*.dylib
+
+# Editores / IDE
+.vscode/
+.idea/
+*.swp
+*~
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
+
+# Logs locales
+*.log
+edusec.log
+
+# No ignorar evidencias
+!evidence/
+!evidence/*
