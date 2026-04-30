@@ -116,7 +116,7 @@ PIA/
 │       └── netscan_module.cpp
 ├── docs/
 │   └── design.md
-└── evidence/        # capturas de la VM y de la ejecución
+└── evidence/       
 ```
 
 ## 8. Tag del primer avance
